@@ -7,29 +7,49 @@
     tools:context="com.misha.myapplication.MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World! This is the app of magic!"
+        android:layout_marginTop="129dp"
+        android:text="Creating and finding recipes that fit your availiable ingredients inventory has never been this easy!"
+        android:textAlignment="center"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.364"
-        app:layout_constraintHorizontal_bias="0.503"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="115dp"
-        android:id="@+id/textView" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="155dp"
         android:layout_height="57dp"
-        android:text="Next Page"
+        android:text="Recipes"
         tools:layout_editor_absoluteX="103dp"
         tools:layout_editor_absoluteY="317dp"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="121dp" />
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredient Inventory"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="Grocery List"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
