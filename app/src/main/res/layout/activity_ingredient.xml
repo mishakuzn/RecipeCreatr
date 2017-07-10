@@ -8,14 +8,15 @@
 
     <TextView
         android:id="@+id/text2"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="This is the second page!"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="188dp"
-        android:layout_marginTop="24dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Here are your ingredients. You can add more by clicking be button below."
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="188dp" />
 
     <Button
         android:id="@+id/button2"
@@ -24,10 +25,9 @@
         android:text="Button of Magic"
         tools:layout_editor_absoluteX="118dp"
         tools:layout_editor_absoluteY="324dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="79dp"
         android:layout_alignTop="@+id/text2"
-        android:layout_alignRight="@+id/text2"
-        android:layout_alignEnd="@+id/text2" />
+        android:layout_centerHorizontal="true" />
 
     <GridView
         android:id="@+id/ingredientgrid"
