@@ -13,9 +13,9 @@
         android:text="This is the second page!"
         tools:layout_editor_absoluteX="118dp"
         tools:layout_editor_absoluteY="188dp"
+        android:layout_marginTop="24dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="109dp" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/button2"
@@ -24,18 +24,18 @@
         android:text="Button of Magic"
         tools:layout_editor_absoluteX="118dp"
         tools:layout_editor_absoluteY="324dp"
-        android:layout_marginBottom="115dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginTop="48dp"
+        android:layout_alignTop="@+id/text2"
+        android:layout_alignRight="@+id/text2"
+        android:layout_alignEnd="@+id/text2" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Press the BUTTON OF MAGIC to show magic."
-        tools:layout_editor_absoluteY="257dp"
-        tools:layout_editor_absoluteX="51dp"
-        android:layout_marginTop="43dp"
-        android:layout_below="@+id/text2"
-        android:layout_centerHorizontal="true" />
+    <GridView
+        android:id="@+id/ingredientgrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button2"
+        android:clickable="true" />
+
 </RelativeLayout>
