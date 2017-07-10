@@ -25,31 +25,43 @@
         android:layout_alignParentEnd="true" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button2"
         android:layout_width="155dp"
         android:layout_height="57dp"
+        android:layout_above="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
         android:text="Recipes"
         tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="317dp"
-        android:layout_marginTop="27dp"
-        android:layout_below="@+id/button3"
-        android:layout_centerHorizontal="true" />
+        tools:layout_editor_absoluteY="317dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Ingredient Inventory" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ingredient Inventory"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="95dp"
+        android:text="Grocery List" />
 
-    <Button
-        android:id="@+id/button4"
+    <ImageView
+        android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="33dp"
-        android:text="Grocery List"
-        android:layout_below="@+id/button"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignBottom="@+id/button"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_toEndOf="@+id/button3"
+        android:layout_toRightOf="@+id/button3"
+        app:srcCompat="@drawable/food-big-salad-300px" />
 
 </RelativeLayout>

@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
             public void onClick(View v) {
 
-                goToSecondActivity();
+                goToIngredientActivity();
 
             }
 
@@ -29,9 +29,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void goToSecondActivity() {
+    private void goToIngredientActivity() {
 
-        Intent intent = new Intent(this, Main2Activity.class);
+        Intent intent = new Intent(this, IngredientActivity.class);
 
         startActivity(intent);
 
